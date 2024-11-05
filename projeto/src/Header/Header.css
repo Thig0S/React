@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+}
+header ul{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.2rem;
+}
+header ul li{
+    border-radius: 10px;
+}
+header ul li a{
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+    padding: 10px;
+}    
+header ul li:hover,header svg:hover{
+    background-color: rgb(238, 237, 237);
+    cursor: pointer;
+}
+header svg{
+    display: none;
+    border-radius: 10px;
+}
+.menu-active{
+    display: none;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 30%;
+    height: 100vh;
+    box-shadow: 1px 1px 20px black;    
+}
+.menu-active ul{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    header svg{
+        display: block;
+    }
+    header .menu{
+        display: none;
+    }
+  }

@@ -1,0 +1,22 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10fr 1fr;
+    gap: 15px;
+    margin: 10px;
+    grid-template-areas: 
+        "item2"
+        "item1 item1";
+}
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: rgb(122, 207, 83);
+}
+.item3{
+    background-color: rgb(43, 255, 0);
+}
+.item4{
+    background-color: aqua;
+}
