@@ -1,0 +1,73 @@
+.Home{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.containerLeft{
+    width: 50%;
+    padding:  50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerLeft h3{
+    color: rgb(43, 43, 43);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.containerLeft h2{
+    color: rgb(139, 7, 172);
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.containerLeft p{
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+.containerLeft button{
+    width: 20%;
+    font-size: 0.9rem;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(139, 7, 172);
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    font-weight: 600;
+    min-width: 120px;
+}
+.containerLeft button:hover{
+    cursor: pointer;
+}
+.containerRight{
+    width: 50%;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+.containerRight img{
+    width:70%;
+}
+.containerCards{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media(max-width: 750px){
+    .Home{
+        flex-direction: column-reverse;
+        align-content: flex-end;
+    }
+    .containerLeft, .containerRight{
+        width: 100%;
+    }
+    .containerCards{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,25 @@
+.card{
+    width: 25%;
+    padding: 20px;
+    border: 1px var(--secondary-color) solid;
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 5px 8px 10px black;
+    display: block;
+    min-width: 320px;
+}
+.card h2{
+    color: black;
+    font-size: 1.4em;
+}
+.card p{
+    color: black;
+    font-size: 1.1em;
+    width: 100%;
+}
+.card{
+    height: 40vh;
+}
