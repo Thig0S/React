@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(0, 0, 0, 0.877);
+}
+.ToDoList {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.addButton {
+  background-color: hsl(120, 100%, 41%);
+  transition: 0.5s;
+}
+.addButton:hover {
+  background-color: hsl(120, 100%, 21%);
+}
+.DeleteButton {
+  background-color: hsl(0, 99%, 37%);
+  transition: 0.5s;
+}
+.DeleteButton:hover {
+  background-color: hsl(0, 99%, 27%);
+}
+.MoveButton {
+  background-color: hsl(224, 100%, 50%);
+  transition: 0.5s;
+}
+.MoveButton:hover {
+  background-color: hsl(224, 100%, 40%);
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 0.45%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 0.5);
+}
+ol {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 15px;
+  border: 3px solid rgba(202, 202, 202, 0.849);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  min-width: 600px;
+}
+.text {
+  flex: 1;
+}
+.editButton {
+  background-color: hsl(130, 100%, 51%);
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+.editButton:hover {
+  background-color: hsl(130, 100%, 41%);
+}
